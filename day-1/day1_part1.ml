@@ -26,4 +26,4 @@ let rec find_couple list = match list with
      fc_aux hd tl []
 ;;
 
-let (a,b) = find_couple (parse (readfile "./input")) in a * b;;
+let (a,b) = find_couple (parse (readfile "./input_part1.txt")) in (a,b,a * b);;
